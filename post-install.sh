@@ -13,7 +13,7 @@ echo 'iperf3 -s -D' >> /etc/local.d/iperf3-server.start
 chmod +x /etc/local.d/iperf3-server.start
 rc-update add local
 
-# Welcome message on tty1
+# Welcome message
 echo "" >> /etc/motd
 echo "Welcome to your iPerf3 Server!" >> /etc/motd
 echo "" >> /etc/motd

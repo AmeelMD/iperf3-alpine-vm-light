@@ -19,5 +19,6 @@ bash <(curl -sSL https://raw.githubusercontent.com/AmeelMD/iperf3-alpine-vm-ligh
 Then follow the prompts. After installing Alpine manually, run:
 
 ```bash
-sh /root/post-install.sh
+curl -o /root/post-install.sh https://raw.githubusercontent.com/AmeelMD/iperf3-alpine-vm-light/main/post-install.sh
+chmod +x /root/post-install.sh && sh /root/post-install.sh
 ```
