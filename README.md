@@ -16,4 +16,4 @@ bash <(curl -sSL https://raw.githubusercontent.com/AmeelMD/iperf3-alpine-vm-ligh
 ```
 
 ## Credits
-Created with ❤️ and assistance from ChatGPT (Rys).
+Created with ❤️ and assistance from GPT (Rys).
